@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans'; 
+}
+
+
+/* Variabes */  
+:root {
+  --orange: #ffa600;
+  --grey: #f3f3f3;
+  --white: #ffffff;
+}
+
+
+body {
+background: var(--orange);
+color: var(--white);
+
+height:100%;
+}
+
+.wrapper {
+width: 800px;
+margin: 150px auto;
+text-align:center;
+}
+
+h1 {
+  margin: 10px 0 30px 0;
+  font-weight: 100;
+  font-size: 2.6em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#minutes{
+  font-size: 8em;
+}
+
+#seconds, #tens{
+  font-size: 4em;
+}
+
+#colon1 {
+  font-size: 4em;
+}
+#colon2 {
+  font-size: 2em;
+}
+
+button{
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  font-size: 1.2em;
+  color: var(--white);
+  background: var(--orange);
+  border: solid 1px white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  color: var(--orange);
+  background: var(--white);
+}
+
+button:active {
+  color: var(--orange);
+  background: var(--grey);
+  font-weight: 600;
+}
+
+
+svg {
+  width: 40px;
+  fill: white;
+}
+
+
+
+
